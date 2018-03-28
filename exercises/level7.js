@@ -3,3 +3,13 @@
 // times as the input number
 //
 // Name the function "finalFunction"
+
+function finalFunction(num) {
+    var array = [];
+    i = 0;
+    while (i < num) {
+        array.push(i);
+        i++;
+    }
+    return array;
+}
